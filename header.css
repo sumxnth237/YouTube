@@ -1,0 +1,117 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0;
+    background-color: white;
+    border-bottom-width:1px ;
+    border-bottom-style:solid ;
+    border-bottom-color: rgba(192, 192, 192, 192) ;   
+    z-index: 100; 
+}
+
+
+.hamburger,
+.youtube-logo {
+    height: 21px;
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+
+.left-section{
+    
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.middle-section{
+    
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search-bar{
+    flex: 1;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(192, 192, 192, 192);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0);
+    width: 0;
+}
+
+.search-button{
+    height: 40px;
+    width: 66px;
+    background-color: rgba(240, 240, 240, 240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(192, 192, 192, 192);
+    margin-left: -1px;
+    margin-right: 10px;
+    position: relative;
+
+}
+
+.voice-search-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(245, 245, 245, 245);
+}
+
+.right-section{
+    
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.upload,
+.youtube-apps,
+.notifications,
+.voice-search,
+.search-icon{
+    height: 24px;
+}
+
+
+.notifications-icon-container{
+    position: relative;
+}
+
+.notification-count{
+    position: absolute;
+    top: -4px;
+    right: -6px;
+    background-color: rgb(200, 0, 0);
+    color: white;
+    font-family: roboto;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 10px;
+}
+
+.unnamed{
+    height: 24px;
+    border-radius: 12px;
+}
